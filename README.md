@@ -63,6 +63,8 @@ Como analista, cada celda fue diseñada optimizando el rendimiento del motor de 
 *   **Fórmula:** `=ROUND(AVERAGE(FILTER(PUNTAJE!AG2:AG61; BASE_DATOS!B2:B61="RECUPERACION"));0)`
 *   **Justificación Técnica:** Previene el sesgo de datos. Filtra las calificaciones correspondientes a un solo bloque operativo y calcula su media aritmética. Aplica un redondeo matemático (`ROUND`) para proveer al dashboard directivo números enteros sólidos, limpios y listos para alimentar los ejes de la gráfica tridimensional.
 
+<img width="320" height="295" alt="image" src="https://github.com/user-attachments/assets/b0e706e8-1efe-4acf-bea7-acdcbf23b9fe" />
+
 ---
 
 ## 🔍 Hallazgos de Datos Destacados (Data Insights)
@@ -72,6 +74,7 @@ El procesamiento de datos de la hoja **Resumen** detectó patrones críticos de 
 2.  **Baja Eficiencia de Procesos (Servicio):** El cumplimiento de compromisos *(6)* y la aceptación de responsabilidades *(3)* promedian **1**, explicando el cuello de botella en los flujos operativos de la organización.
 
 ---
+
 
 ## 🛠️ Aptitudes Demostradas en este Repositorio
 *   **Modelado de Datos e Inteligencia de Negocio (BI)**
