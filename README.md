@@ -59,6 +59,7 @@ Como analista, cada celda fue diseñada optimizando el rendimiento del motor de 
     ```
 *   **Justificación Técnica:** Elimina la necesidad de utilizar macros (VBA) complejas, reduciendo el peso del archivo. Realiza un filtrado condicional cruzado entre dos matrices dimensionales distintas: busca la coincidencia exacta de la categoría en la base maestra oculta y, al mismo tiempo, extrae únicamente los reactivos con rendimiento reprobatorio ($\leq$ 6). Esto pobla el panel de crisis de manera 100% automatizada.
 
+
 ### 4. Agregación Condicional para el Dashboard
 *   **Fórmula:** `=ROUND(AVERAGE(FILTER(PUNTAJE!AG2:AG61; BASE_DATOS!B2:B61="RECUPERACION"));0)`
 *   **Justificación Técnica:** Previene el sesgo de datos. Filtra las calificaciones correspondientes a un solo bloque operativo y calcula su media aritmética. Aplica un redondeo matemático (`ROUND`) para proveer al dashboard directivo números enteros sólidos, limpios y listos para alimentar los ejes de la gráfica tridimensional.
